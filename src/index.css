@@ -1,0 +1,11 @@
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #4581b6c9;
+}
+.cards-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 20px;
+}
