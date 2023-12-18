@@ -31,12 +31,6 @@ function App() {
     fetchCharacters();
   }, [currentPage]);
 
-  const fetchData = async (currentPage) => {
-    const res = await fetch(`https://rickandmortyapi.com/api/character`);
-    const data = await res.json();
-    return data;
-  };
-
   const handlePageClick = async (data) => {
     console.log(data);
     setCurrentPAge(data.selected + 1);
